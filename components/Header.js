@@ -5,19 +5,19 @@ import mockUp from "../public/images/home.png";
 
 const Header = () => {
   return (
-    <div className="grid grid-cols-12 mt-24  xl:mx-[20rem]">
+    <div className="grid grid-cols-12 mt-24  xl:mx-[10rem]">
       
       <div className="lg:col-span-6 col-span-12 ">
         <AnimatedText
-          className="!text-4xl lg:text-left md:text-left md:ml-10 xl:!text-5xl lg:!text-6xl md:!text-5xl  sm:!text-4xl"
+          className="!text-6xl lg:text-left md:text-left md:ml-10 xl:!text-7xl lg:!text-6xl md:!text-5xl  "
           text="Sus Af"
         />
         <AnimatedText
-          className="!text-3xl lg:text-left md:text-left md:ml-10 xl:!text-4xl  lg:!text-5xl md:!text-4xl sm:!text-3xl "
+          className="!text-3xl lg:text-left md:text-left md:ml-10 xl:!text-4xl  lg:!text-4xl md:!text-4xl  "
           text="React Native Demo"
         />
       </div>
-      <div className="mx-auto lg:col-span-6 lg:-rotate-45 xl:ml-[10rem] lg:ml-[5rem] col-span-12 w-[10rem] sm:mt-10">
+      <div className="mx-auto lg:col-span-6 lg:-rotate-45 xl:ml-[10rem] lg:ml-[5rem] col-span-12 w-[10rem] mt-10">
         <div
           className="relative  w-full items-center  justify-between rounded-3xl rounded-br-3xl border
 border-solid border-dark bg-light shadow-2xl  dark:border-light dark:bg-dark  lg:flex-col 
